@@ -17,3 +17,20 @@
   top: -30px;
   color: green;
 }
+@media (max-width: 758px) {
+  .wrapperTextColor{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    flex-direction: column;
+    width: 200px; 
+    margin: auto;
+    /* margin-bottom: 100px;  */
+  }
+  .wrapperTextColor::after{
+    content: 'вы можете выбрать цвет и текст';
+    position: absolute;
+    top: -30px;
+    color: green;
+  }
+}

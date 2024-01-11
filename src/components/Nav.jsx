@@ -15,13 +15,7 @@ function Nav({light}) {
         }>
         {nav.map((i, key) => {
           return(<li key={key} className = {pathname === i.href? style['activeNav']:''}>
-            {/* <NavLinkReactRouter to={i.label}> */}
             <Link to={i.href}>{i.title}</Link>
-            {/* <Link
-              label={t('sign_in')}
-              active={pathname === {i.href}! }
-                /> */}
-          {/* </NavLinkReactRouter> */}
           </li>);
         })}
       </ul>

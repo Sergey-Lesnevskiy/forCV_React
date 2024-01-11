@@ -9,10 +9,16 @@ function Header({ fun }) {
       style.wrapper_header:
       style.wrapper_headerDark}>
       <div className={style.image}>
-        <img src="https://cdn.pixabay.com/photo/2015/11/26/16/28/vintage-1064142_1280.png" />
+        <img src="https://cdn.pixabay.com/photo/2015/11/26/16/28/vintage-1064142_1280.png" alt='logo'/>
       </div>
       <h3>testSite</h3>
       <Nav light={light}/>
+      <div class={style.area_blackout}></div>
+        <div class={style.hamburger} id={style.hamburger-9}>
+          <span class={style.line}></span>
+          <span class={style.line}></span>
+          <span class={style.line}></span>
+        </div>
       <div className={style.wrapper_switch}>
         <label>
           выбрать тему сайта:

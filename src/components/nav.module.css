@@ -1,10 +1,11 @@
-.menu, .menuDark{
+.menu,
+.menuDark {
   list-style-type: none;
   display: flex;
   /* width: 250px; */
   justify-content: space-around;
 }
-.menuDark  a{
+.menuDark a {
   text-decoration: none;
   color: white;
   /* border-radius: 5px; */
@@ -13,14 +14,14 @@
   display: flex;
   align-self: center;
 }
-.menu  a{
+.menu a {
   text-decoration: none;
   color: black;
   padding: 5px 3px;
   display: flex;
   align-self: center;
 }
-.menu  li{
+.menu li {
   border-radius: 5px;
   /* border: 1px solid rgb(253, 252, 252); */
   border: 1px solid black;
@@ -28,19 +29,48 @@
   margin-right: 5px;
 }
 
-.menuDark  li{
+.menuDark li {
   border-radius: 5px;
   border: 1px solid rgb(253, 252, 252);
   /* border: 1px solid black; */
 
   margin-right: 5px;
 }
-.activeNav{
+.activeNav {
   background-color: rgba(76, 102, 164, 0.171);
   transform: scale(1);
   box-shadow: 0 0 5px 5px rgba(161, 178, 191, 0.2);
   transition: box-shadow 0.5s, transform 0.5s;
 }
-.menuDark .activeNav{
+.menuDark .activeNav {
   box-shadow: 0 0 5px 5px rgba(242, 243, 243, 0.2);
+}
+@media (max-width: 758px) {
+  .menu,
+  .menuDark {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: -100px;
+    flex-direction: column;
+    z-index: 10;
+    background-color: rgb(123, 122, 122);
+    top: 0px;
+    transition: all 0.1s ease-in-out;
+  }
+  .menu a {
+    flex-direction: column;
+    /* border: 1px solid rgb(253, 252, 252); */
+
+    /* margin-right: 5px; */
+  }
+  .menu li {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(253, 252, 252); */
+    border: none;
+
+    /* margin-right: 5px; */
+  }
 }

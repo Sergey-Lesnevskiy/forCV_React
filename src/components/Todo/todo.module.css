@@ -92,7 +92,7 @@
   border: none;
   border-radius: 0;
   width: 69%;
-  padding: 11.5px;
+  padding: 12.9px;
   float: left;
   font-size: 16px;
 }
@@ -139,14 +139,4 @@ button {
 button:hover{
   filter: drop-shadow(0 0 0.75rem rgba(220, 20, 60, 0.325));
   color:white;
-}
-.buttonLeft{
-  /* position: absolute;
-  top:0;
-  left: 100px; */
-}
-.buttonRight{
-  /* position: absolute;
-  top:0;
-  right: 100px; */
 }
