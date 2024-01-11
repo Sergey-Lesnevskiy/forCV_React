@@ -1,0 +1,14 @@
+.App {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.AppDark{
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+}

@@ -1,0 +1,19 @@
+
+.content{
+  margin-top: 40px;
+  flex: 1 0 auto;
+}
+.wrapperTextColor{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.wrapperTextColor::after{
+  content: 'вы можете выбрать цвет и текст';
+  position: absolute;
+  top: -30px;
+  color: green;
+}

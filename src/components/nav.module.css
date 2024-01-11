@@ -1,0 +1,46 @@
+.menu, .menuDark{
+  list-style-type: none;
+  display: flex;
+  /* width: 250px; */
+  justify-content: space-around;
+}
+.menuDark  a{
+  text-decoration: none;
+  color: white;
+  /* border-radius: 5px; */
+  padding: 5px 3px;
+  margin-right: 5px;
+  display: flex;
+  align-self: center;
+}
+.menu  a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 3px;
+  display: flex;
+  align-self: center;
+}
+.menu  li{
+  border-radius: 5px;
+  /* border: 1px solid rgb(253, 252, 252); */
+  border: 1px solid black;
+
+  margin-right: 5px;
+}
+
+.menuDark  li{
+  border-radius: 5px;
+  border: 1px solid rgb(253, 252, 252);
+  /* border: 1px solid black; */
+
+  margin-right: 5px;
+}
+.activeNav{
+  background-color: rgba(76, 102, 164, 0.171);
+  transform: scale(1);
+  box-shadow: 0 0 5px 5px rgba(161, 178, 191, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.menuDark .activeNav{
+  box-shadow: 0 0 5px 5px rgba(242, 243, 243, 0.2);
+}

@@ -1,0 +1,16 @@
+.footer{
+  padding-top: 20px;
+  text-align: center;
+  height: 100px;
+  color:aliceblue;
+  background-color: black;
+  flex-shrink: 0;
+}
+.footerDark{
+  padding-top: 20px;
+  text-align: center;
+  height: 100px;
+  background-color:aliceblue;
+  color: black;
+  flex-shrink: 0;
+}
